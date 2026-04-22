@@ -1,3 +1,37 @@
 body {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #F1F0E4;
+    color: #3E3F29;
+}
+
+.recipe-pic {
+    height: 500px;
+}
+
+.index-nav {
+    margin: 0px auto 30px auto;
+    background-color: #3E3F29;
+    padding: 10px 20px;
+}
+
+.index-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 20px;
+    width: 100%;
+}
+
+.index-nav a:hover {
+    color: #7D8D86;
+}
+
+.home-btn {
+  background-color: #7D8D86;
+  padding: 10px 20px;
+  margin-left: 0;
+}
+
+ul, ol {
+    display: inline-block;
 }
